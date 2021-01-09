@@ -1,7 +1,7 @@
 # important-swift-code
 Important Swift Code and Markdown Practice
 
-#### How to manage Orientation Change and CellSize :)
+## How to manage Orientation Change and CellSize :)
 ```swift
   public override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape,
